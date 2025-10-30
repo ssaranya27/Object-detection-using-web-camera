@@ -1,8 +1,8 @@
 # Object-detection-using-web-camera
 
-<H3>Name: SANJEEV RAJ.S</H3>
-<H3>Register no: 212223220096</H3>
-<H3>Date: 30.9.2025 </H3>
+<H3>Name: SARANYA .S</H3>
+<H3>Register no: 212223220101</H3>
+<H3>Date: 30.10.2025 </H3>
 
 # AIM:
 To perform real-time object detection using a trained YOLO v4 model through your laptop camera.
@@ -35,6 +35,7 @@ while True:
     
     # Get YOLO output
     outputs = net.forward(output_layers)
+
     
     # Initialize lists to store detected boxes, confidences, and class IDs
     boxes = []
@@ -90,7 +91,8 @@ cv2.destroyAllWindows()
 
 # OUTPUT:
 
-<img width="796" height="638" alt="image" src="https://github.com/user-attachments/assets/38d726ef-61ef-49c9-9d29-99c70faccb79" />
+![alt text](output.jpg)
 
-
+# RESULT:
+ Thus I perform real-time object detection using a trained YOLO v4 model through your laptop camera.
  
